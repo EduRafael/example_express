@@ -16,5 +16,5 @@ const app = express();
 const PORT = config.server.port;
 
 app.listen(PORT, () => {
-  console.log(`[SERVER]: running in the port: ${PORT}`);
+  console.log(`[${"ᕙ(`▿´)ᕗ"}]: server running in the port: ${PORT}`);
 });
