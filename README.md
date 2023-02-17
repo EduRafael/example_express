@@ -7,13 +7,19 @@
   [![NPM Downloads][npm-downloads-image]][npm-downloads-url]
 
 
-# Descripción
+# Descripción:
+
+## Documentación
+  [Configuración inicial + Variables de entorno](https://www.victorvr.com/tutorial/variables-de-entorno-con-nodejs)
 
 ## Configuración de entorno
 
-Con el proposito de facilitar la ejecución de dicha API, se realizó un `Docker Compose` que permitirá de forma rápida crear todos los recursos necesario para su uso. DOC: [Docker Compose](https://levelup.gitconnected.com/creating-and-filling-a-postgres-db-with-docker-compose-e1607f6f882f)
+
+
 
 ### Ejecución de docker-compose
+Con el proposito de facilitar la ejecución de dicha API, se realizó un `Docker Compose` que permitirá de forma rápida crear todos los recursos necesario para su uso. DOC: [Docker Compose](https://levelup.gitconnected.com/creating-and-filling-a-postgres-db-with-docker-compose-e1607f6f882f)
+
 Para poner en marcha el `Docker Compose` de forma correcta, se debe ingresar a la carpeta `./docker` y ejecutar los siguientes comandos:
 
 ```bash

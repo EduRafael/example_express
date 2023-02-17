@@ -1,1 +1,3 @@
+#En este archivo se agregan los archivos queqa se quieren ignorar en el control de versiones
 node_modules
+.env
