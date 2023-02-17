@@ -10,7 +10,9 @@
 # Descripción:
 
 ## Documentación
-  [Configuración inicial + Variables de entorno](https://www.victorvr.com/tutorial/variables-de-entorno-con-nodejs)
+  - [Configuración inicial + Variables de entorno](https://www.victorvr.com/tutorial/variables-de-entorno-con-nodejs)
+  - [Instalación y configuración de Docker en windows](https://docs.docker.com/desktop/install/windows-install/)
+  - [Instalación y configuración de Git en windows](https://www.atlassian.com/git/tutorials/install-git#windows)
 
 ## Configuración de entorno
 
