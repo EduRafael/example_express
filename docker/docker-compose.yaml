@@ -1,0 +1,26 @@
+version: '3.9'
+
+services:
+  postgres:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: postgres_example
+    restart: always
+    ports:
+      - "5436:5432"
+    environment:
+      DATABASE_HOST: 127.0.0.1
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: admin
+      POSTGRES_DB: postgres
+
+  pgadmin:
+    image: dpage/pgadmin4
+    environment:
+      PGADMIN_DEFAULT_EMAIL: "admin@admin.com"
+      PGADMIN_DEFAULT_PASSWORD: "admin"
+    ports:
+      - "8081:80"
+    depends_on:
+      - postgres
